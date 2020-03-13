@@ -1,0 +1,339 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:leroymerlen55@gmail.com
+X-WR-TIMEZONE:Europe/Moscow
+BEGIN:VEVENT
+DTSTART:20200215T210000Z
+DTEND:20200216T030000Z
+DTSTAMP:20200311T075301Z
+UID:0j3lmvhvf9bn3to749e42une4s@google.com
+CREATED:20200216T211137Z
+DESCRIPTION:Описание мероприятия: Такое сякое\, будет круто\, ждём всех
+LAST-MODIFIED:20200216T211137Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Типа мероприятие(DataScience\,Python\,R\;Таганрогаская n\; Site.com
+ )
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200228T150000Z
+DTEND:20200228T180000Z
+DTSTAMP:20200311T075301Z
+UID:4ibupfkf6uofekvchmj7f9ud10@google.com
+CREATED:20200216T212257Z
+DESCRIPTION:<p><strong>Digital Pain: менеджмент&nbsp\;</strong>— конференци
+ я о болях в менеджменте проектов от дизайн-студии № 1.</p><p>&nbsp\;</p><p>
+ Руководители юнитов&nbsp\;<strong>Студии Олега Чулакова</strong>&nbsp\;пере
+ жили муки во время управления крупными проектами. Но они выжили и готовы по
+ делиться опытом\, как безболезненно решать бизнес-задачи в digital.<br><br>
+ </p><br><br><br><br>КОНТАКТЫ ОРГАНИЗАТОРОВ<br><br><br><br>PR<br>Любимова Ир
+ ина<br>+7 988 586 08 26<a href="mailto:pr@chulakov.ru" id="ow631" __is_owne
+ r="true">pr@chulakov.ru</a>
+LAST-MODIFIED:20200216T212257Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Digital Pain(менеджмент\;Ростов-на-Дону\, Россия ул. Суворова 91\;h
+ ttps://studiya-olega-chulakova.timepad.ru/event/1245769/)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200220T160000Z
+DTEND:20200220T190000Z
+DTSTAMP:20200311T075301Z
+UID:5kbfh9643ljekdueqi0gdr7afb@google.com
+CREATED:20200216T212817Z
+DESCRIPTION:В четверг\, 20 февраля в 19:00\, уютным ростовским Python-сообщ
+ еством будем восхвалять Python! Неожиданно\, правда?\;) Ждем Вас в коворкин
+ ге Рубин на Python meetup #2<br><br>Программа:<br>1. Алексей Коваленко (Bro
+ utonLab) расскажет как ускорить код на Python<br>2. Саямов Сергей (НИИ Спец
+ вузавтоматика) выступит с докладом “Метаклассы: простые модели Django”<br>3
+ . Роман Ковтюх (CVisionLab) расскажет про Аннотации типов в Python<br><br>Б
+ удет нетворкинг\, даже после митапа\, если Вы понимаете о чём я \;)<br><br>
+ Регайтесь\, пожалуйста:&nbsp\;<a href="http://bit.ly/rndpython2">http://bit
+ .ly/rndpython2</a>&nbsp\;&nbsp\;
+LAST-MODIFIED:20200216T212817Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Python meetup #2(Python\,Django\;Ростов-на-Дону\, пр.Театральный\, 
+ д.85\, Коворкинг "РУБИН"\;https://niisva.timepad.ru/event/1259727/)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200229T123000Z
+DTEND:20200229T153000Z
+DTSTAMP:20200311T075301Z
+UID:1qf327m7akeghq49a75erv7jkf@google.com
+CREATED:20200216T213017Z
+DESCRIPTION:Что: RND PHP #2<br>Где: наш любимый коворкинг «Рубин» (Ростов-н
+ а-Дону\, Театральный пр.\, 85)<br>Когда: 29 февраля в 15-30<br>Программа и 
+ регистрация:&nbsp\;<a href="http://bit.ly/rndphp2">http://bit.ly/rndphp2</a
+ ><br>В этот раз ¾ спикеров едут к нам из других городов. Двое из них — докл
+ адчики TeamLead Conf и HighLoad++. Впрочем\, зачем нам держать интригу? Отк
+ рываем занавес!<br><br>- Владимир Янц\, тимлид из Badoo расскажет и покажет
+ \, зачем и как писать качественные Unit-тесты.<br><br>- Антон Морев\, основ
+ атель и CTO wormsoft.ru раскроет тему «Переход с PHP на GoLang в реальных п
+ римерах».<br><br>- Сергей Жук\, backend разработчик в проекте Skyeng Aword 
+ объяснит\, как повысить производительность приложений с ReactPHP.<br><br>- 
+ Владимир Плахотников\, fullstack разработчик — с докладом «DTO на стероидах
+ ».<br><br>Тезисы докладов и регистрация здесь:&nbsp\;<a href="http://bit.ly
+ /rndphp2">http://bit.ly/rndphp2</a><br>Пожалуйста\, не откладывайте режку\,
+  мест и времени всегда не так много\, как кажется.<br><br>P.S. Будут ещё но
+ вости по мере приближения к дню икс\, подписывайтесь&nbsp\;<a href="https:/
+ /vk.com/rnd_php">https://vk.com/rnd_php</a>&nbsp\;&nbsp\;
+LAST-MODIFIED:20200216T213017Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RND PHP #2(PHP\, GoLang\, ReactPHP\;Ростов-на-Дону\, Театральный пр
+ .\, 85\;https://php-rnd.timepad.ru/event/1258656/)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200220T120000Z
+DTEND:20200220T130000Z
+DTSTAMP:20200311T075301Z
+UID:4vhp2n1emv74lsolo5vmac7b5l@google.com
+CREATED:20200216T213008Z
+DESCRIPTION:20 февраля (четверг) в 15:00 по Мск пройдет открытый вебинар Ви
+ талия Савенкова — технического директора компании Distributed Service о том
+ \, как сократить расходы на ИТ и управление базами данных в 2 раза. Для рег
+ истрации заполните форму внизу страницы. На ваш email придет ссылка на веби
+ нар и напоминание за 1 день до вебинара.<br><h3><br>Какие вопросы мы рассмо
+ трим на вебинаре?</h3><ul><li><br>Как распознать\, что аудит неизбежен и ва
+ шим базам данных нужна оптимизация (выдадим чек-лист).</li><li><br>Как выст
+ роить бизнес-процессы по оптимизации и мониторингу производительности в рит
+ ейл-\, телеком-\, логистических компаниях.</li><li><br>Как аутсорсинговая к
+ оманда может повлиять на эффективность бизнеса и чем может помочь внутренне
+ й.</li></ul><br><br><h3><br>Наш вебинар для:</h3><ul><li><br>руководителей 
+ ИТ-подразделений\;</li><li><br>коммерческих директоров\;</li><li><br>исполн
+ ительных директоров\;</li><li><br>генеральных директоров.</li></ul><br><br>
+ Вебинар подойдёт для руководителей\, работающих в ритейле\, телекоме\, E-co
+ mmerce\, банках\, логистических компаниях\, страховых компаниях. Базы данны
+ х\, с которыми работаем: Microsoft SQL Server\, Oracle\, MySQL\, PostgreSQL
+ .
+LAST-MODIFIED:20200216T213541Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Как сократить расходы на базы данных в 2 раза (вебинар)   (#Вебинар
+  #Базы_данных\,http://db-service.ru/webinar_kak_sokratit_rashody_na_bd_20-0
+ 2-20?utm_source=ict2go&utm_medium=ref&utm_campaign=w_20-02-20
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200228T070000Z
+DTEND:20200228T100000Z
+DTSTAMP:20200311T075301Z
+UID:1if0bt3gfpuofj7um1hcam526c@google.com
+CREATED:20200216T220044Z
+DESCRIPTION:Первая большая IT конференция для женщин в Ростове-на-Дону! IWD
+  - это глобальная серия<br>мероприятий Google\, призванных отметить достиж
+ ения девушек в IT-сфере по всему миру. На конференции будут организованы вы
+ ступления технических спикеров и многое другое.<br>И в стиле Google\, будет
+  много еды и развлечений!<br><br>- 7 спикеров\;<br>- 150 участников\;<br>-
+  Технические доклады\;<br>- Мотивационные доклады\;<br>- Кофе-брейк (постар
+ ались учесть все предпочтения по еде)\;<br>- Милая раздатка.<br><br>Хедлайн
+ ерки:<br>&nbsp\;"10 шагов как составить классное резюме и поверить в себя".
+  Елена Ленсу\, Pravo Tech (Москва)<br>&nbsp\;"Хроники CSS". Людмила Мжачих\
+ ,&nbsp\;<a href="https://vk.com/away.php?to=http%3A%2F%2FMail.Ru&amp\;cc_ke
+ y=">Mail.Ru</a>&nbsp\;Group (Москва)<br><br>Не забывайте покупать билеты\, 
+ пока доступен early bird:&nbsp\;<a href="https://vk.com/away.php?to=http%3A
+ %2F%2Fbit.ly%2Fiwdrnd&amp\;cc_key=" id="ow619" __is_owner="true">http://bit
+ .ly/iwdrnd</a>
+LAST-MODIFIED:20200216T220044Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:International Women's Day RnD 2020(CSS\,резюме\;Большая Садовая\, 1
+ 14А\;https://iwd.gdgrnd.ru/)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200523T090000Z
+DTEND:20200523T153000Z
+DTSTAMP:20200311T075301Z
+UID:1ssr1u6v7rfgfg050drheagevh@google.com
+CREATED:20200218T215637Z
+DESCRIPTION:<ol><li>Три потока докладов (архитектура\, фронтенд\, управлени
+ е)\, воркшопы\, BoF-сессии\, лаунжы для нетворкинга и афтерпати с IT-стенда
+ пом\, квизом\, BBQ и кальянами. На свежем воздухе с домашней атмосферой Rnd
+ Tech.<br><br>Наши спикеры:<br>&nbsp\;Илья Климов (GitLab)<br>&nbsp\;Дмитрий
+  Пацура (UnderJS)<br>&nbsp\;Сережа Рубанов (BeerJS)<br>&nbsp\;Антон Морев (
+ Wormsoft)<br>&nbsp\;Виталий Брагилевский (JetBrains)<br>&nbsp\;Александр Ко
+ ротаев (Тинькофф)<br>&nbsp\;Павел Юркин (Леруа Мерлен)<br>&nbsp\;Вячеслав Ш
+ ебанов (Вконтакте)<br>&nbsp\;Ирина Назарова (Evil martians)<br>&nbsp\;Роман
+  Сорока (iTechArt Group)<br>&nbsp\;Алексей Сотов (Яндекс)<br>... полный спи
+ сок на сайте.<br><br>С нами на площадке IT-сообщества: IT Standup\, Code in
+  the Dark\, IT Спорт\, JS Tgn Weekends\, Krasnodar Dev Days\, RnD PHP.<br>E
+ arly bird&nbsp\;&nbsp\;билеты уже в продаже&nbsp\;<br></li></ol>
+LAST-MODIFIED:20200218T215650Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RndTechConf 2020(Все тэги\;Ростов-на-Дону\, Embargo Villa (левобере
+ жная\, 72)\; https://rndtech.pro/)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200225T160000Z
+DTEND:20200225T180000Z
+DTSTAMP:20200311T075301Z
+UID:7c2ve6egc8e9ullv5gobpvtk5m@google.com
+CREATED:20200218T215832Z
+DESCRIPTION:На прошлом митапе мы знакомились с системой постановки целей OK
+ R\, которые синхронизируют команды с целями бизнеса. А как же эффективно уп
+ равлять командой для достижения этих целей? Поговорим об этом на втором мит
+ апе.\n\nУправление командой — это важная составная часть любого проекта. Чт
+ обы направить усилия людей на достижение общей цели\, необходимо сделать уп
+ равление командой максимально эффективным.\n\nСпикеры:\n\nАнна Ширяева - 10
+  лет в IT. С 2017 года занимается управлением проектами в INOSTUDIO\, затем
+  в Mentalstack.\n\nЕкатерина Свирепо — 11+ лет в IT\, была Head of Delivery
+  в Distillery\, Chief Development Officer в INOSTUDIO\, Head of Sales & Cus
+ tomer Relations в CBOSS\, продвигает Agile в массы и входит в группу органи
+ заторов международной конференции Kanban Eurasia 2020  
+LAST-MODIFIED:20200218T215832Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:IT61job(Все тэги\;Ростов-на-Дону\, Коворкинг "Рубин"\, пр. Театраль
+ ный\, дом 85\;https://it61job.timepad.ru/event/1263801/)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200229T090000Z
+DTEND:20200229T120000Z
+DTSTAMP:20200311T075301Z
+UID:4o40f8rvtunkg4847kdq1penpa@google.com
+CREATED:20200218T215953Z
+DESCRIPTION:По статистике значимая доля программистов вошла в профессию\, п
+ отому что хотела разрабатывать игры — это была их мечта. Подозреваем\, что 
+ и сейчас некоторые разработчики хотели бы соприкоснуться с GameDev.\n\nУ Иг
+ оря Костякова тоже была такая мечта\, и благодаря ему будет проведен JavaSc
+ ript GameDev Workshop\, где мы покажем\, что создавать игры могут все \n\nС
+ начала мы расскажем об основных терминах и алгоритмах\, которые применяются
+  в GameDev. Затем вместе с вами мы попробуем написать свой платформер с пре
+ ферансом и куртизанками\, то есть с платформами и монстрами. Специально для
+  вас мы написали классы и функции\, которые помогут не заморачиваться над р
+ утинным кодингом и просто делать креатив. Также мы предоставим вам демо-при
+ ложение.\n\nМы поможем вам в реализации\, дальше дело за вашей фантазией 
+LAST-MODIFIED:20200218T215953Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:JavaScript GameDev Workshop(JavaScript\;Место проведения будет объя
+ влено позже или выслано зарегистрировавшимся\;https://docs.google.com/forms
+ /d/e/1FAIpQLSdw58fLhphjfCRArFGMgYwd1gjH6uOq159Shae0fLtRZsRA6Q/viewform)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200310T083000Z
+DTEND:20200310T131500Z
+DTSTAMP:20200311T075301Z
+UID:3dcad7sactkj5p08qor4akadq4@google.com
+CREATED:20200218T220128Z
+DESCRIPTION:Для кого? Для менеджеров\, разработчиков\, тимлидов и всех\, кт
+ о так или иначе ведет переговоры.\nЦель: Научить применять SOFT SKILLS (гиб
+ кие навыки) в решении конфликтов на работе и в обычной жизни.\n\nКто спикер
+ : Валерия — переговорщик с 8-летним опытом в IT-сфере. Прошла долгий путь о
+ т продаж по телефону до проведения переговоров на многомиллионные сделки с 
+ руководством крупнейших компаний.\n\nЧто будем делать\n\nДелиться опытом. П
+ рорабатывать на практике основные софт-скилы\, необходимые при решении конф
+ ликта мирным(!) путем.\nРазберём кое-что из эмоционального интеллекта\, пер
+ еговоров и лидерских качеств. Что именно? - Узнаете в процессе. Все карты р
+ аскрывать не будем.\nНебольшой спойлер: про развитие эмпатии будет
+LAST-MODIFIED:20200218T220128Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Soft Skills "Решение рабочих конфликтов"(Все тэги\;В онлайне!\;http
+ s://vk.com/softskillsrnd)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200305T160000Z
+DTEND:20200305T180000Z
+DTSTAMP:20200311T075301Z
+UID:167vikii5c8jlihj9hov6oj9a7@google.com
+CREATED:20200220T202806Z
+DESCRIPTION:<br><br><br><br><br><br><br><br><ul><li><br>Отказоустойчивость\
+ , масштабирование\, чистый код и технический долг. Общение и лёгкая музыка.
+  Новые знакомства и обмен опытом. Это всё RndTechTalks.Architecture 5 марта
+ . Коворкинг "РУБИН"<br><br>Это митап про бекенд\, а ещё про архитектурные р
+ шения\, скорость разработки и про внутреннее качество.<br><br>И это ещё нем
+ ножко про хардкор\, поэтому митап точно не для новичков.<br><br>Программа:<
+ br><br>1. Богдан Ковтун\, Full stack Developer в Matter Music LLC<br>"Как м
+ ы двигаемся от анемичной модели к DDD прямо сейчас"<br><br>2. Сергей Ковале
+ вский\, CTO в HttpLab<br>"Бессерверные вычисления на базе контейнеров: как 
+ тысячи докер-контейнеров облаке экономят нам время и деньги"<br><br>3. Дени
+ с Александров\, разработчик в Arcadia<br>"Архитектура должника"<br><br><br>
+ <a href="https://vk.com/away.php?to=https%3A%2F%2Frndtech.timepad.ru%2Feven
+ t%2F1266099%2F&amp\;el=snippet"></a><br><br><a href="https://vk.com/away.ph
+ p?to=https%3A%2F%2Frndtech.timepad.ru%2Fevent%2F1266099%2F&amp\;el=snippet"
+ >RndTechTalks.Architecture #2 / События на TimePad.ru</a><a href="https://v
+ k.com/away.php?to=https%3A%2F%2Frndtech.timepad.ru%2Fevent%2F1266099%2F&amp
+ \;el=snippet">rndtech.timepad.ru</a></li></ul><br><br><br><br><br><br><labe
+ l></label><br><br><br><a>Ещё</a><br><br><a></a><a></a><a></a><a></a><a></a>
+ <br><br><br>Напишите сообщение…
+LAST-MODIFIED:20200220T202806Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:RndTechTalks.Architecture #2(fullstack\, backend\,architecture\;пр.
+ Театральный\, д.85\, Коворкинг "РУБИН"\;https://rndtech.timepad.ru/event/12
+ 66099/)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200410T093000Z
+DTEND:20200410T150000Z
+DTSTAMP:20200311T075301Z
+UID:45g3417j57qfo1vdostka9hb5f@google.com
+CREATED:20200227T213204Z
+DESCRIPTION:10-11 апреля в Минске состоится конференция для С++ разработчик
+ ов CoreHard Spring 2020.<br>10 апреля - четыре восьмичасовых мастер-класса 
+ от:<br>- Антона Полухина "Шустрый и современный C++"<br>- Rainer Grimm "Con
+ currency with modern C++"<br>- Klaus Iglberger "Modern C++ Design Patterns"
+ <br>- четвертый мастер-класс на утверждении.<br><br>11 апреля - День доклад
+ ов. Вас ждут 3 потока\, 14 докладов. Вот только некоторые из них:<br>- Rain
+ er Grimm "Best practices in modern C++"<br>- Juan Pedro Bolívar Puente "Pos
+ tmodern immutable data structures"<br>- Phil Nash "Types\, Tests and Total 
+ Functions - a Perfect Storm"<br><br>Подробнее ознакомиться с Программой мож
+ но по ссылке&nbsp\;<a href="https://vk.com/away.php?to=https%3A%2F%2Fvk.cc%
+ 2FamvSc1&amp\;post=-133272160_141&amp\;cc_key=">https://vk.cc/amvSc1</a>&nb
+ sp\;&nbsp\;
+LAST-MODIFIED:20200227T213204Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:CoreHard Spring 2020(C++\, backend\;Минск\; https://vk.cc/amvSc1)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200304T160000Z
+DTEND:20200304T180000Z
+DTSTAMP:20200311T075301Z
+UID:0fdppflnbv6tq9fjqhiu7u8s78@google.com
+CREATED:20200303T161956Z
+DESCRIPTION:ФП среда снова открывает двери для всех неравнодушных к функцио
+ нальному программированию! В этот раз – "Зав типы\, которые могут навредить
+ "\n\nНа этот раз в ФП среде две молнии* про типы:\n- Денис Кривошеев расска
+ жет "Как типы могут навредить"\n- Иван Аристов расскажет про "Опыт использо
+ вания зависмых типов"\n\n*молния – это вольный перевод lightning talk – быс
+ трого доклада\, нацеленного на провокацию обсуждения  
+LAST-MODIFIED:20200303T162152Z
+LOCATION:
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:ФП среда "Зав типы\, которые могут навредить"(Все тэги\;Ростов-на-Д
+ ону\, Нижнебульварная\, 6. 11 этаж правой башни\;https://lambda61.timepad.r
+ u/event/1275864/)
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
