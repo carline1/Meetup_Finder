@@ -1,4 +1,4 @@
-"""Bot_telegram URL Configuration
+"""mefi URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
@@ -15,7 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.conf.urls import url
+from mefi.views import HomeView, LoginView
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    url(r'^$', HomeView.as_view()),
+    url(r'^accounts/login/$', LoginView.as_view(), name="login"),
 ]
