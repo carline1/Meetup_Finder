@@ -1,12 +1,15 @@
 import telebot
 from telebot import apihelper
 import config
-import pymysql
+# import pymysql
 
 bot = telebot.TeleBot(config.TOKEN)
 
+# apihelper.proxy = {
+#     'https': 'socks5://188.226.141.127:1080'
+# }
 apihelper.proxy = {
-    'https': 'socks5://185.252.147.18:8880'
+    'https': 'socks5://geek:socks@t.geekclass.ru:7777'
 }
 
 
@@ -15,7 +18,7 @@ def start_message(message):
     bot.send_message(message.chat.id, 'Привет, друг!')
 
 
-@bot.message_handler(commands=['ха]'])
+@bot.message_handler(commands=['ха'])
 def start_message(message):
     bot.send_message(message.chat.id, 'хаха')
 
