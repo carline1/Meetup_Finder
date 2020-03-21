@@ -1,9 +1,11 @@
 import telebot
 from telebot import apihelper
-import config
+from django.core.management.base import BaseCommand
+# import config
+# from .models import Eventlist
 # import pymysql
 
-bot = telebot.TeleBot(config.TOKEN)
+bot = telebot.TeleBot('1088595832:AAGT0Tzfhgq4_JBUoQ8rmDFWcThMaSHoREU')
 
 # apihelper.proxy = {
 #     'https': 'socks5://188.226.141.127:1080'
