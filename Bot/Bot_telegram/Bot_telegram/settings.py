@@ -125,3 +125,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Настройки бота
+
+TOKEN = '1088595832:AAGT0Tzfhgq4_JBUoQ8rmDFWcThMaSHoREU'
+
+PROXY_URL = 'socks5://geek:socks@t.geekclass.ru:7777'
+
