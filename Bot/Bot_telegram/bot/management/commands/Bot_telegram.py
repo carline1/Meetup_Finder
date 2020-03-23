@@ -55,14 +55,14 @@ class Command(BaseCommand):
 def start_message(message):
     # print(message.chat.username)
     all_objects_userlist = Userlist.objects.all()
+    exist_user = False
     for i in range(len(all_objects_userlist)):
-        exist_user = False
-        if message.chat.username == str(all_objects_userlist[i].ul_linktgmessage):
+        if str(message.chat.id) == all_objects_userlist[i].ul_linktgmessage:
             bot.send_message(message.chat.id, 'С возвращением, друг! ')
             exist_user = True
-        if not exist_user:
-            bot.send_message(message.chat.id, 'Привет, друг! Введи свой id с сайта, чтобы мы слогли подключить бота')
-            bot.register_next_step_handler(message, send_id)
+    if not exist_user:
+        bot.send_message(message.chat.id, 'Привет, друг! Введи свой id с сайта, чтобы мы слогли подключить бота')
+        bot.register_next_step_handler(message, send_id)
 
 
 def send_id(message):
@@ -72,7 +72,7 @@ def send_id(message):
         # print(all_objects[i].ul_id)
         if message.text == str(all_objects_userlist[i].ul_id):
             # print('Success!')
-            all_objects_userlist[i].ul_linktgmessage = message.chat.username
+            all_objects_userlist[i].ul_linktgmessage = message.chat.id
             all_objects_userlist[i].save()
             bot.send_message(message.chat.id, 'Телеграм-аккаунт подключен к рассылке')
             id_in_base = True
@@ -85,7 +85,7 @@ def id_on_the_site(message):
     exist_user = False
     all_objects_userlist = Userlist.objects.all()
     for i in range(len(all_objects_userlist)):
-        if message.chat.username == str(all_objects_userlist[i].ul_linktgmessage):
+        if str(message.chat.id) == all_objects_userlist[i].ul_linktgmessage:
             bot.send_message(message.chat.id, f'Ваш id на сайте: {all_objects_userlist[i].ul_id}')
             exist_user = True
     if not exist_user:
@@ -97,17 +97,20 @@ def id_on_the_site(message):
     all_objects_userlist = Userlist.objects.all()
     exist_user = False
     for i in range(len(all_objects_userlist)):
-        if message.chat.username == str(all_objects_userlist[i].ul_linktgmessage):
+        if str(message.chat.id) == all_objects_userlist[i].ul_linktgmessage:
             tags = ''
             num_of_tag = 0
             all_objects_usertaglist = Usertaglist.objects.all()
             for j in range(len(all_objects_usertaglist)):
                 if all_objects_userlist[i].ul_id == all_objects_usertaglist[j].utl_id_user.ul_id:
                     num_of_tag += 1
-                    print(all_objects_usertaglist[j].utl_id_tag.tl_title)
+                    # print(all_objects_usertaglist[j].utl_id_tag.tl_title)
                     tags += str(num_of_tag) + ') ' + \
                             all_objects_usertaglist[j].utl_id_tag.tl_title + '\n'
-            bot.send_message(message.chat.id, f'Ваши теги: \n{tags}')
+            if tags != '':
+                bot.send_message(message.chat.id, f'Ваши теги: \n{tags}')
+            else:
+                bot.send_message(message.chat.id, 'Вы не указали теги')
             exist_user = True
     if not exist_user:
         bot.send_message(message.chat.id, 'Вы не зарегистрированы на нашем сайте')
@@ -128,7 +131,7 @@ def events(message):
     exist_user = False
     tags = []
     for i in range(len(all_objects_userlist)):
-        if message.chat.username == str(all_objects_userlist[i].ul_linktgmessage):
+        if str(message.chat.id) == all_objects_userlist[i].ul_linktgmessage:
             user_id = all_objects_userlist[i].ul_id
             for j in range(len(all_objects_usertaglist)):
                 if all_objects_userlist[i].ul_id == all_objects_usertaglist[j].utl_id_user.ul_id:
@@ -143,9 +146,11 @@ def events(message):
                 if all_objects_eventtaglist[i].etl_id_tag.tl_title in tags and all_objects_eventtaglist[i].etl_id_event.el_id not in repeat_events:
                     event = all_objects_eventtaglist[i].etl_id_event.el_title + '\n\n' + 'Описание:\n' \
                     + all_objects_eventtaglist[i].etl_id_event.el_description + '\n\n' + 'Дата и время проведения:\n' \
-                    + str(all_objects_eventtaglist[i].etl_id_event.el_date) + '\n\n'
+                    + str(all_objects_eventtaglist[i].etl_id_event.el_date)
+                    if str(all_objects_eventtaglist[i].etl_id_event.el_time) != '00:00:00':
+                        event += '\nВремя:\n' + str(all_objects_eventtaglist[i].etl_id_event.el_time)
                     if all_objects_eventtaglist[i].etl_id_event.el_link != '':
-                        event += 'Сайт:\n' + all_objects_eventtaglist[i].etl_id_event.el_link + '\n\n'
+                        event += '\n\n' + 'Сайт:\n' + all_objects_eventtaglist[i].etl_id_event.el_link + '\n\n'
 
                     place = 'Где это находится:\n' + 'Город: ' + all_objects_eventtaglist[i].etl_id_event.el_id_place.pl_city + '\n' \
                     + 'Улица: ' + all_objects_eventtaglist[i].etl_id_event.el_id_place.pl_str_name + '\n' + 'Дом: ' + \
@@ -153,7 +158,7 @@ def events(message):
                     if all_objects_eventtaglist[i].etl_id_event.el_id_place.pl_letter is not None:
                         place += 'Буква дома: ' + all_objects_eventtaglist[i].etl_id_event.el_id_place.pl_letter + '\n'
                     if all_objects_eventtaglist[i].etl_id_event.el_id_place.pl_place_name is not None:
-                        place += 'Название места: ' + all_objects_eventtaglist[i].etl_id_event.el_id_place.pl_place_name + '\n'
+                        place += 'Название места проведения: ' + all_objects_eventtaglist[i].etl_id_event.el_id_place.pl_place_name + '\n'
 
                     event += place
                     repeat_events.append(all_objects_eventtaglist[i].etl_id_event.el_id)
@@ -163,8 +168,7 @@ def events(message):
             bot.send_message(message.chat.id, 'Вы не указали теги')
 
 
-
-
+# bot.send_message(484231880, 'Ахахахихихи Артем лох')
 
 
 
